@@ -6,9 +6,20 @@
 - GNS3 for network simulation
 - Putty for Windows or Royal TSX for Mac for remote access
 
-# Welcome
+# Client-Specific Network Configuration Guide
 
-This repository is dedicated to helping you set up and configure a comprehensive network environment for various purposes, including network simulations, web services, and security enhancements. Whether you're a seasoned network administrator or just starting, this guide will assist you in creating a robust network infrastructure. Dive in and explore the resources and instructions provided to get your lab up and running.
+Welcome to our Network Lab GitHub repository! This repository is dedicated to helping you set up and configure a comprehensive network environment for an experimental project requested by a client. The client's requirements include building a secure network with specific requirements:
+
+- A secure internal Windows domain.
+- An internal Microsoft IIS webserver.
+- An internal Windows 10 workstation.
+- A public webserver.
+- A public FTP server.
+- A LAN network on 10.128.0.0/24.
+- A DMZ network on 10.128.10.0/24.
+- A guest network on 10.128.99.0/24.
+
+Whether you're a seasoned network administrator or just starting, this guide will assist you in creating a robust network infrastructure that meets these specific requirements. This project is an exciting experiment designed to fulfill your client's needs for a secure and efficient network environment. Dive in and explore the resources and instructions provided to get your lab up and running.
 
 ## Next Steps
 Follow the stage-specific instructions to build out the small business environment. Refer to the lab documentation for step-by-step guidance and troubleshooting tips.
