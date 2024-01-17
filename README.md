@@ -6,31 +6,12 @@
 - GNS3 for network simulation
 - Putty for Windows or Royal TSX for Mac for remote access
 
-Ensure you have your lab server details, including the username and password, provided by your instructor.
+# Welcome
 
-## Stages Overview
-- **Stage 0:** Familiarize with lab workspace.
-- **Stage 1:** Network setup using GNS3, adding and configuring firewall and switches.
-- **Stage 2:** Domain setup for managing network identities.
-- **Stage 3:** Setup IIS for web services.
-- **Stage 4:** LAMP setup for Linux hosting.
-- **Stage 5:** FTP setup for file transfers.
-- **Stage 6:** Environment hardening for security.
-- **Bonus Stage:** Vulnerability scanning.
-- **Wrap Up:** Finalizing and review.
-
-### Detailed Steps
-Refer to the provided GNS3 Guide for adding, linking, and managing devices in the workspace. For firewall configurations, consult the FortiNet Cookbook.
-
-## Important Notes
-- Do not create, save, or backup GNS3 projects unnecessarily.
-- Do not delete or modify essential objects like WAN-SWITCH or WAN-CLOUD.
-- Verify configurations match the provided topologies at each stage.
-- Consult Microsoft and FortiNet guides for specific configurations and troubleshooting.
+This repository is dedicated to helping you set up and configure a comprehensive network environment for various purposes, including network simulations, web services, and security enhancements. Whether you're a seasoned network administrator or just starting, this guide will assist you in creating a robust network infrastructure. Dive in and explore the resources and instructions provided to get your lab up and running.
 
 ## Next Steps
-Follow the stage-specific instructions to build out the small business environment requested by the client. Refer to the lab documentation for step-by-step guidance and troubleshooting tips.
-
+Follow the stage-specific instructions to build out the small business environment. Refer to the lab documentation for step-by-step guidance and troubleshooting tips.
 
 # Network Configuration and Security Steps
 
