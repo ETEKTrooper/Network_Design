@@ -55,7 +55,5 @@
 53. Understand the impact of deprecated SSLv2 and SSLv3 protocols detected on the system, considering the solution to migrate to TLSv1.2+ protocols.
 54. Note the server certificate vulnerabilities with RSA keys less than 2048 bits and plan appropriate mitigation steps.
 55. Sign into the Greenbone Security Assistant using the provided admin credentials.
-56. Examine the Greenbone Security Assistant dashboard for an overview of tasks by severity, CVEs by creation time, and NVTs by severity class.
-57. Document hardening notes for the FortiGate firewall, including access control policies, firmware updates, authentication and authorization, logging and monitoring, intrusion prevention systems, and VPN security.
-58. Review the detailed vulnerability scan report in Greenbone Security Assistant, noting the severity, host, and name for each vulnerability.
-59. Follow the mitigation steps recommended in the Widgets Network Documentation Wiki based on the vulnerabilities listed in the Greenbone Security Assistant report.
+56. Examine the Greenbone Security Assistant dashboard for an overview of tasks by severity, CVEs by creation time, and NVTs by severity class. Document hardening notes for the FortiGate firewall, including access control policies, firmware updates, authentication and authorization, logging and monitoring, intrusion prevention systems, and VPN security.
+
