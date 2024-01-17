@@ -57,3 +57,12 @@
 55. Sign into the Greenbone Security Assistant using the provided admin credentials.
 56. Examine the Greenbone Security Assistant dashboard for an overview of tasks by severity, CVEs by creation time, and NVTs by severity class. Document hardening notes for the FortiGate firewall, including access control policies, firmware updates, authentication and authorization, logging and monitoring, intrusion prevention systems, and VPN security.
 
+# Vulnerability Report Summary
+
+- **Weak Cipher Suites**: Identified medium severity risks due to weak SSL/TLS cipher suites. Mitigation involves updating to stronger cipher suites.
+
+- **Outdated SSL Protocols**: Detected use of deprecated SSLv2 and SSLv3 protocols. Upgrading to TLSv1.2+ is recommended for improved security.
+
+- **Inadequate RSA Key Sizes**: Found server certificates with RSA keys less than 2048 bits. Transition to keys of adequate length to prevent unauthorized data access.
+
+The report highlights the necessity of addressing these vulnerabilities to protect the network from potential security breaches.
