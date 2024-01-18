@@ -568,6 +568,8 @@ Follow the stage-specific instructions to build out the small business environme
 - The report's findings, especially the presence of high-severity vulnerabilities, signal the urgent need for network hardening measures to enhance security.
 - Based on the report, prioritize the vulnerabilities for remediation, beginning with the highest severity and working down, addressing issues such as weak encryption algorithms and outdated protocols.
 - Plan to update the affected systems, enforce stronger security policies, and possibly conduct a follow-up scan after remediation to ensure all issues have been addressed.
+- The vulnerability full report can be found [here](./reports/vulnerability_report.pdf).
+
 
 ## Slide 52 Instructions:
 - In your web browser, navigate to the Widgets Network Documentation Wiki page specifically for 'Hardening Research Notes'.
