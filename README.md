@@ -141,12 +141,12 @@ Follow the stage-specific instructions to build out the small business environme
 ## Slide 10 Instructions:
 - Open the FortiGate VM web interface on the Windows 10 client.
 - Navigate to the 'Network' section and select 'DNS' to configure DNS settings.
-**You will see two sections: 'DNS Service on Interface' and 'DNS Database':**
-**Under 'DNS Service on Interface,' you can assign DNS services to specific interfaces such as LAN, GUEST, and DMZ. Click 'Create New' to add a new DNS service or select an existing interface to edit its DNS settings. Set the mode to 'Recursive' if you want the FortiGate to perform recursive DNS resolution.**
-**For the 'DNS Database,' this is where you can define your own DNS records and zones. Since there are 'No matching entries found,' you can create a new DNS zone by clicking 'Create New'.**
-**In the new zone, you would specify the domain name for which the FortiGate is authoritative, and you can add records such as A, AAAA, CNAME, MX, etc., that will resolve within your network.**
-**After configuring DNS services for each interface, ensure that the DNS settings are correct and match the intended network design, particularly if you are segmenting networks with different DNS requirements (e.g., a separate DNS server for guests versus internal users).**
-**Once all configurations are complete, click 'Apply' to save the settings.**
+You will see two sections: 'DNS Service on Interface' and 'DNS Database':
+Under 'DNS Service on Interface,' you can assign DNS services to specific interfaces such as LAN, GUEST, and DMZ. Click 'Create New' to add a new DNS service or select an existing interface to edit its DNS settings. Set the mode to 'Recursive' if you want the FortiGate to perform recursive DNS resolution.
+For the 'DNS Database,' this is where you can define your own DNS records and zones. Since there are 'No matching entries found,' you can create a new DNS zone by clicking 'Create New'.
+In the new zone, you would specify the domain name for which the FortiGate is authoritative, and you can add records such as A, AAAA, CNAME, MX, etc., that will resolve within your network.
+After configuring DNS services for each interface, ensure that the DNS settings are correct and match the intended network design, particularly if you are segmenting networks with different DNS requirements (e.g., a separate DNS server for guests versus internal users).
+Once all configurations are complete, click 'Apply' to save the settings.
 
 ## Slide 11 Instructions:
 - Access the FortiGate VM64-KVM firewall interface.
